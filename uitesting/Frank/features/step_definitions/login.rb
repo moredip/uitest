@@ -5,6 +5,7 @@ end
 
 When /^I choose to correct my credentials$/ do
 	touch("alertView button marked:'Login'")
+  wait_for_nothing_to_be_animating
 end
 
 When /^I navigate backwards$/ do
